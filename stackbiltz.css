@@ -1,0 +1,1439 @@
+:root {
+    --logo-gap: 2px !important;
+    --text-color: background-image: linear-gradient(to bottom right, #96f8ff 42%, #00e6ff 76%) !important;
+    --navbar-color: background-image: linear-gradient(to bottom right, #96f8ff 42%, #00e6ff 76%) !important;
+    --toolbar-height: 84px;
+    --navbar-a: #aeddff99;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box !important;
+}
+
+body {
+    font-family: Gilroy, sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.main-layout {
+    background-attachment: fixed !important;
+    background-image: linear-gradient(to right bottom, #0d1d3a, #1a2f55 52%, #365a83) !important;
+    color: #fff !important;
+}
+
+
+/* ####################################################################################################### 
+************************************** Index Page Styling Starts Here ************************************
+########################################################################################################*/
+
+
+/* ##########################################
+********* topbar styling starts here ********
+###########################################*/
+
+
+/* title bar logo styling starts here */
+
+.logo-div {
+    /* padding-top: 1.6rem; */
+    margin-left: 1.5rem;
+    /* margin-right: -4rem; */
+    width: 150px;
+}
+
+.body-stackbiltz-logo {
+    fill: #fff;
+}
+
+
+/* .fixed-top {
+    margin-left: 10rem !important;
+} */
+
+.body-stackbiltz-logo1 {
+    fill: #fff;
+    /* margin-top: 3rem !important; */
+}
+
+.body-stackbiltz-logo {
+    margin-left: -4px;
+}
+
+.nav-link {
+    color: var(--navbar-a);
+    font-family: Gilroy, sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+    transition: color .2s !important;
+    padding-left: 2.2em !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.my-nav-left {
+    margin-left: -2.7rem;
+}
+
+
+/* nav search form */
+
+.form {
+    position: relative;
+    width: 60%;
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #aeddff99;
+    font-size: 13px;
+}
+
+.form input {
+    border: none !important;
+    background: #192742 !important;
+    color: #aeddff99 !important;
+    font-weight: 600;
+    /* padding-right: 5rem; */
+    height: 33px;
+}
+
+.form input:hover {
+    color: #aeddff99 !important;
+    font-weight: 600;
+}
+
+.form:hover {
+    /* border: 1px solid #365a83; */
+    font-weight: 600;
+}
+
+.form-input {
+    /* height: 55px; */
+    text-indent: 30px;
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none;
+}
+
+
+/* Nav Github button starts here*/
+
+.github-div {
+    background-color: #102243 !important;
+    border-radius: 5px;
+    align-items: center !important;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.github-div>.github-sign-in>span {
+    color: #aeddffcc !important;
+    fill: currentColor;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#my-sign-in:hover {
+    color: #fff !important;
+    fill: currentColor;
+}
+
+.nav-fixed {
+    /* width: 100% !important; */
+    /* transition: 0.3s ease-in-out; */
+    /* position: -webkit-sticky !important; */
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+    /* transition: background-color .16s ease, height .16s ease; */
+}
+
+.nav-active {
+    background-color: #121e36 !important;
+    height: 60px !important;
+    align-content: center !important;
+    transition: 0.3s ease-in-out;
+    /* position: -webkit-sticky !important; */
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+
+.custom-toggler.navbar-toggler {
+    color: #000 !important;
+}
+
+
+/* Custom scroll */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #009578;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6dcdb1;
+}
+
+
+/* ##########################################
+****** top heading styling starts here ******
+############################################*/
+
+.top-heading {
+    font-size: 57px;
+    /* margin: 0px 0px 42px; */
+}
+
+.top-heading.heading-blue strong {
+    background-image: linear-gradient(to bottom right, #96f8ff 42%, #00e6ff 76%);
+}
+
+.top-heading strong {
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    font-family: Gilroy, sans-serif !important;
+    /* line-height: 0.5px; */
+}
+
+.my-toolbar {
+    height: var(--toolbar-height) !important;
+    position: -webkit-sticky !important;
+    top: 0;
+    align-items: center !important;
+}
+
+
+/* Heading Paragraph Styling Starts Here */
+
+.heading-p {
+    color: #aeddffcc !important;
+    font-size: 16px !important;
+    letter-spacing: 0.5px !important;
+    line-height: 1.64 !important;
+}
+
+
+/* ##########################################
+********* top Heading Ends Here ********
+############################################*/
+
+
+/* ##########################################
+********* top Heading body starts Here ********
+############################################*/
+
+.beta-heading {
+    font-size: 14px;
+    color: #ffffffec;
+    letter-spacing: 0.05em;
+}
+
+.beta-div {
+    width: 240px;
+    border: 2px solid #e7f5ff18;
+    border-radius: 5px;
+}
+
+.beta-div:hover {
+    border: 2px solid #26ffca;
+    padding-left: 0.3em;
+    transition: ease 0.09s;
+    cursor: pointer;
+    background-color: #102243;
+}
+
+.LinkIcon {
+    font-size: 35px;
+    /* align-items: center; */
+}
+
+.beta-icon {
+    margin-bottom: -0.9rem;
+}
+
+.beta-icon-p {
+    /* background-image: linear-gradient(to bottom right, #96f8ff 42%, #00e6ff 76%); */
+    background-color: #26ffca;
+    color: #000;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.beta-inner {
+    line-height: 0.4em;
+    letter-spacing: 0.01em;
+}
+
+.beta-inner-1 {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.beta-inner-2 {
+    font-size: 11px;
+    font-weight: bold;
+    color: #e0f2ff96;
+}
+
+.low-margin {
+    margin-bottom: -8px;
+}
+
+
+/* ##########################################
+********* top Heading body Ends Here ********
+############################################*/
+
+
+/* ###################################################################################################### */
+
+
+/* ##########################################
+********* Founder Section Starts Here ********
+############################################*/
+
+.founder-bg {
+    background-color: #0d1d3a;
+}
+
+.founder-div {
+    border: 2px solid #26ffca;
+    border-radius: 20px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.quote-svg {
+    /* transform: translateX(-48) translateY(28) !important; */
+    transform: translateY(28px) translateX(-48px);
+}
+
+.founder-t {
+    font-size: 28px;
+    padding-top: 2em;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 1.26;
+}
+
+.founder-img {
+    width: 140px;
+    height: 180px;
+    box-shadow: 0 0 0 2px #22f3bf, 10px 10px 0 0 #22f3bf;
+    margin-top: -0.7rem;
+}
+
+.github-svg {
+    font-size: 35px;
+    color: #fff;
+    fill: currentColor;
+    box-shadow: 0 0 0 10px #0d1d3a;
+    background-color: #0d1d3a;
+    border-radius: 50px;
+    margin-left: 8rem;
+    margin-top: -2rem;
+}
+
+.founder-name {
+    padding-top: 1em;
+    text-align: end;
+    font-weight: 600;
+    line-height: 0.8;
+}
+
+.founder-name-p {
+    color: #e0f2ff96;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* ##########################################
+********* Founder Section Ends Here ********
+############################################*/
+
+
+/* ##################################################################################### */
+
+
+/* ##########################################
+********* Editing Section Starts Here ********
+############################################*/
+
+.editing-head {
+    font-size: 50px;
+    font-weight: bold;
+    /* padding-left: 1.5em; */
+}
+
+.editing-head strong {
+    background-image: linear-gradient(to bottom right, #96f8ff 42%, #00e6ff 76%);
+}
+
+.editing-head strong {
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    font-family: Gilroy, sans-serif !important;
+    /* line-height: 0.5px; */
+}
+
+
+/* Editing body starts here */
+
+.my-grid {
+    display: grid;
+    gap: 42px 110px;
+    --list-columns: 2;
+    grid-template-columns: repeat(var(--list-columns), 1fr);
+    justify-content: center;
+}
+
+.experience-search,
+.experience-rotate {
+    filter: invert(68%) sepia(57%) saturate(437%) hue-rotate( 343deg) brightness(104%) contrast(99%);
+    font-size: 20px;
+}
+
+.experience-arrow,
+.experience-exclaimation {
+    filter: invert(46%) sepia(40%) saturate(1761%) hue-rotate( 320deg) brightness(117%) contrast(99%);
+}
+
+.experience-file,
+.experience-upload {
+    filter: invert(30%) sepia(61%) saturate(4147%) hue-rotate( 303deg) brightness(93%) contrast(90%);
+}
+
+.exp-head {
+    margin-top: 0.6rem;
+    font-size: 22px;
+}
+
+.exp-p {
+    color: #e0f2ff96;
+}
+
+.exp-btn {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 10em !important;
+    /* width: 100%; */
+    display: block;
+    padding-right: 10em !important;
+    border: 2px solid #365a83;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.exp-btn:hover {
+    background-color: #0d1d3a;
+    border: 2px solid #22f3bf;
+}
+
+.editing-head2 {
+    font-size: 49px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.editing-head2 strong {
+    background-image: linear-gradient(to bottom right, #96f8ff 42%, #00e6ff 76%);
+}
+
+.editing-head2 strong {
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    font-family: Gilroy, sans-serif !important;
+    /* line-height: 0.5px; */
+}
+
+
+/* ##########################################
+********* Editing Section Ends Here ********
+############################################*/
+
+
+/* ##################################################################################################################### */
+
+
+/* ##########################################
+******* Case Study Section Starts Here *****
+############################################*/
+
+.case-div {
+    border-radius: 20px;
+    /* transition: ease-in-out 0.2s; */
+    background-image: url('images/stackblitz-google-case.png');
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: 110%;
+    background-size: 480px;
+    transform: scale(.97);
+    transition: box-shadow .3s ease, transform .3s ease;
+}
+
+.case-div:hover {
+    /* border-radius: 45px; */
+    /* transform: scale(0.97); */
+    transform: none;
+}
+
+.case-img {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+}
+
+.left-div {
+    margin-top: 2.2rem;
+}
+
+.inner-left {
+    opacity: 0.6;
+    color: #000;
+}
+
+.inner-left-p {
+    font-size: 12px;
+    margin-bottom: 0px !important;
+    margin-left: 0.7rem;
+}
+
+.inner-left-svg {
+    color: #000;
+    opacity: 0.6;
+    fill: currentColor;
+}
+
+
+/* Case form Styling Starts Here */
+
+.my-form {
+    margin-top: 5rem;
+}
+
+.case-input::placeholder {
+    font-size: 11px;
+    letter-spacing: 0.09em;
+}
+
+.case-input::selection {
+    padding-left: 1em;
+}
+
+.form-control {
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 2px solid rgba(175, 175, 175, 0.692);
+}
+
+.case-input::selection {
+    background-color: #0d1d3a;
+    color: #fff;
+}
+
+.case-form-btn {
+    padding: 0rem 2.5rem;
+    /* background-color: red; */
+    font-size: 10px;
+}
+
+.download-svg {
+    color: #fff;
+    fill: currentColor;
+    margin-top: -0.3rem !important;
+}
+
+
+/* Case form Styling Ends Here */
+
+
+/* ##########################################
+******* Case Study Section Ends Here *******
+############################################*/
+
+
+/* .my-footer-main-bg {
+    padding: 24px 24px;
+}
+
+.footer-head {
+    letter-spacing: .6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-a {
+    line-height: 2.5em;
+} */
+
+
+/* Footer Grid */
+
+
+/* .footer-a-grid {
+    display: grid;
+    gap: 40px 80px;
+    --list-columns: 2;
+    grid-template-columns: repeat(var(--list-columns), 1.5fr);
+    background-color: blue;
+    /* line-height: 0.7em; */
+
+
+/* font-size: 12px;
+    font-weight: 500;
+    opacity: .6
+}  */
+
+.footer-html-padding {
+    padding-top: 1.77em;
+}
+
+.footer-main-flex {
+    flex-direction: column;
+    padding-top: 68px;
+    padding-bottom: 48px;
+}
+
+.inner-footer-li {
+    flex-direction: column;
+    flex: 2;
+    margin-top: 15px;
+    line-height: 0.8em;
+}
+
+.inner-footer-li:first-child {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-top: 15px;
+    line-height: 0.8em;
+}
+
+.footer-li-head {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .4px;
+    opacity: .9;
+}
+
+.footer-module {
+    display: flex;
+    flex: 1;
+    line-height: 0.8em;
+    flex-direction: column;
+}
+
+.footer-module:first-child {
+    display: flex;
+    flex: 2;
+    line-height: 0.8em;
+    flex-direction: column;
+}
+
+.d-flex .list-unstyled li a {
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    opacity: .5;
+    color: #fff;
+    padding: 9px 0;
+    width: 100%;
+}
+
+.d-flex .list-unstyled li a:hover {
+    color: #fff !important;
+    opacity: 1;
+    font-weight: bold;
+    transition: ease-in;
+}
+
+
+/* a,
+.git-btn {
+    color: inherit;
+} */
+
+.git-li {
+    background-color: #fff !important;
+    opacity: .8;
+    width: 100px !important;
+    border-radius: 10px;
+    /* padding-left: 0.3em; */
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.git-li a {
+    padding: 2px !important;
+    border: 1px solid rgba(109, 105, 105, 0.829);
+    /* border-radius: 2px; */
+}
+
+.git-left {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.git-right {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.git-btn {
+    color: #000;
+}
+
+.git-star {
+    color: #000 !important;
+    opacity: 1;
+}
+
+.git-star:hover {
+    color: blue !important;
+}
+
+
+/* .git-star {
+    opacity: 0.8;
+    fill: currentColor;
+} */
+
+.last-footer {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.top-sidebar,
+.extra-top-sidebar {
+    display: none;
+}
+
+
+/* ############################################ Custom Responsiveness Starts Here ############################ */
+
+@media screen and (max-width:991px) {
+    /* .my-nav-responsive {
+        float: left !important;
+        left: -250px !important;
+        justify-content: start;
+        align-content: start;
+        align-items: start;
+    }
+    .my-logo-responsive {
+        color: blue;
+        fill: currentColor;
+        right: 200px;
+        float: right;
+    } */
+}
+
+
+/* navbar becomes mobile sidebar under lg breakpoint */
+
+@media (min-width:767px) and (max-width: 991px) {
+    .my-toolbar {
+        height: 64px;
+        align-content: center !important;
+    }
+    .logo-div {
+        /* padding-top: 0.2rem; */
+        margin-left: 1rem;
+        align-items: center !important;
+        width: 180px;
+    }
+    .my-nav-responsive {
+        width: min-content !important;
+    }
+    .nav-active {
+        background-color: #121e36 !important;
+        height: 64px;
+        align-content: center !important;
+        transition: ease-in-out !important;
+        position: -webkit-sticky !important;
+        top: 0;
+    }
+    .navbar-collapse.collapsing .navbar-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -45%;
+        transition: all 0.2s ease;
+    }
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+        width: 35%;
+        transition: left 0.35s ease;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        background-color: #0d1d3a;
+    }
+    .navbar-collapse.show .navbar-nav .nav-item {
+        position: relative;
+        top: 3%;
+        font-weight: 500;
+        align-items: center;
+    }
+    .top-sidebar,
+    .extra-top-sidebar {
+        display: block;
+    }
+    .navbar-collapse.show .navbar-nav .nav-item {
+        padding-top: 1em;
+        align-items: center;
+    }
+    .navbar-toggler {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .container-991 {
+        max-width: max-content !important;
+        /* padding-right: 4em; */
+    }
+    .top-heading-padding {
+        margin-left: 0rem !important;
+        margin-top: 25px !important;
+    }
+    .top-heading {
+        font-size: 38px;
+        margin-top: 2px !important;
+        line-height: 1em !important;
+        padding-left: 0.4em;
+    }
+    .heading-p-up {
+        margin-left: 0px !important;
+        margin-top: 2rem !important;
+    }
+    .heading-p {
+        margin-left: 2.5rem !important;
+    }
+    .top-heading {
+        font-size: 57px;
+    }
+    .top-heading.heading-blue strong {
+        background-image: linav-activenear-gradient(to bottom right, #96f8ff 42%, #00e6ff 76%);
+    }
+    .top-heading strong {
+        -webkit-text-fill-color: #0000;
+        background-clip: text;
+        -webkit-background-clip: text;
+        font-weight: 800;
+        font-family: Gilroy, sans-serif !important;
+        /* line-height: 0.5px; */
+    }
+    .my-toolbar {
+        height: var(--toolbar-height) !important;
+        position: -webkit-sticky !important;
+        top: 0;
+        align-items: center !important;
+    }
+    /* Heading Paragraph Styling Starts Here */
+    .heading-p {
+        color: #aeddffcc !important;
+        font-size: 16px !important;
+        letter-spacing: 0.5px !important;
+        line-height: 1.64 !important;
+    }
+    /* ##########################################
+********* top Heading Ends Here ********
+############################################*/
+    .container-991-beta {
+        /* margin-left: 0px !important; */
+        max-width: max-content !important;
+        margin: 0px !important;
+        /* padding: 0px !important; */
+    }
+    .low-margin {
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+    }
+    .beta-flex-col {
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+    }
+    .quote-svg {
+        transform: translateY(28px) translateX(-25px);
+    }
+    .editing-991 {
+        margin-left: 0px !important;
+    }
+    .container-991-world {
+        max-width: max-content !important;
+    }
+    .editing-head2 {
+        text-align: center;
+    }
+    .container-991-footer {
+        padding-left: 2rem !important;
+        max-width: max-content !important;
+    }
+}
+
+
+/*################################# Mobile Screen Media QUeries 991px Ended Here ###############################*/
+
+
+/*##############################################################################################################
+################################# Mobile Screen Media QUeries 767px Started Here ###############################
+###############################################################################################################*/
+
+@media (min-width:465px) and (max-width:767px) {
+    .container-991 {
+        max-width: max-content;
+        /* padding-right: 4em; */
+    }
+    .top-heading {
+        font-size: 52px !important;
+    }
+    .container-991-beta {
+        /* margin-left: 0px !important; */
+        max-width: max-content !important;
+        margin: 0px !important;
+        /* padding: 0px !important; */
+    }
+    .my-nav-responsive {
+        width: min-content !important;
+    }
+    .nav-active {
+        background-color: #121e36 !important;
+        height: 64px;
+        align-content: center !important;
+        transition: ease-in-out !important;
+        position: -webkit-sticky !important;
+        top: 0;
+    }
+    .navbar-collapse.collapsing .navbar-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -45%;
+        transition: all 0.2s ease;
+    }
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+        width: 35%;
+        transition: left 0.35s ease;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        background-color: #0d1d3a;
+    }
+    .navbar-collapse.show .navbar-nav .nav-item {
+        position: relative;
+        top: 3%;
+        font-weight: 500;
+        align-items: center;
+    }
+    .top-sidebar,
+    .extra-top-sidebar {
+        display: block;
+    }
+    .navbar-collapse.show .navbar-nav .nav-item {
+        padding-top: 1em;
+        align-items: center;
+    }
+    .navbar-toggler {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .quote-svg {
+        width: 80px;
+        transform: translateY(18px) translateX(-4px) !important;
+    }
+    .editing-767 {
+        margin-left: 0px !important;
+    }
+    .body-stackbiltz-logo1 {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    /* Top Heading Media Queries */
+    .top-heading-padding {
+        margin-left: 0rem !important;
+        margin-top: 5px !important;
+    }
+    .top-heading {
+        font-size: 38px;
+        margin-top: 2px !important;
+        line-height: 1em !important;
+    }
+    .heading-p-up {
+        margin-left: 0px !important;
+        margin-top: 2rem !important;
+    }
+    .form {
+        display: none;
+    }
+    .form-input {
+        display: none;
+        text-indent: 30px;
+    }
+    /* .i-search {
+        margin-top: -15px;
+    } */
+    .i2-input {
+        display: block;
+        /* width: 100px; */
+    }
+    .my-github-res,
+    .github-res2 {
+        display: flex;
+        /* justify-content: end; */
+        /* position: absolute; */
+    }
+    .my-github-res .github-res2 form i,
+    .my-github-res .github-res2 form input {
+        align-items: center !important;
+    }
+    .my-res-input {
+        display: block;
+        /* float: left; */
+        width: 100px;
+    }
+    .github-div {
+        width: 90px;
+        padding-right: 8px !important;
+        padding-left: 8px !important;
+    }
+    .form {
+        width: 100px;
+        /* padding-left: 0em; */
+        justify-content: end;
+        float: right;
+    }
+    .form input::placeholder {
+        /* padding-left: 0px !important; */
+        padding-right: 0px !important;
+        width: 100px;
+    }
+    .case-input::placeholder {
+        font-size: 11px;
+        letter-spacing: 0.09em;
+    }
+    .case-input::selection {
+        padding-left: 20px !important;
+    }
+    .form .fa-search {
+        position: absolute;
+        /* top: 10px; */
+        /* left: 15px; */
+        color: #aeddff99;
+        font-size: 13px;
+    }
+    .form-control {
+        padding-left: 10px !important;
+    }
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+        width: 70%;
+        transition: left 0.35s ease;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        background-color: #0d1d3a;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+    }
+    /*################################# TOp heading + navbar ends here ###############################*/
+    /*################################# heading body starts here ###############################*/
+    .body-wrapper,
+    .body-wrapper .container {
+        margin-top: 0px !important;
+    }
+    .beta-375 {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+    .beta-main-row {
+        margin-left: 0px !important;
+    }
+    .beta-flex-col {
+        gap: 10px 5px;
+    }
+    .beta-div {
+        width: 200px;
+    }
+    /*################################# heading body ends here ###############################*/
+    .editing-head2 {
+        text-align: center;
+    }
+    .container-767-world {
+        max-width: max-content;
+    }
+    .container-991-footer {
+        padding-left: 3rem !important;
+        max-width: max-content !important;
+    }
+}
+
+
+/*##############################################################################################################
+################################# Mobile Screen Media QUeries 767px Ended Here ###############################
+###############################################################################################################*/
+
+
+/*################################# Mobile Screen Media QUeries 464px ###############################*/
+
+@media screen and (max-width:464px) {
+    /* #########################Top Bar and Heading #########################*/
+    .my-nav-responsive {
+        width: min-content !important;
+    }
+    .nav-active {
+        background-color: #121e36 !important;
+        height: 64px;
+        align-content: center !important;
+        transition: ease-in-out !important;
+        position: -webkit-sticky !important;
+        top: 0;
+    }
+    .navbar-collapse.collapsing .navbar-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -45%;
+        transition: all 0.2s ease;
+    }
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+        width: 35%;
+        transition: left 0.35s ease;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        background-color: #0d1d3a;
+    }
+    .navbar-collapse.show .navbar-nav .nav-item {
+        position: relative;
+        top: 3%;
+        font-weight: 500;
+        align-items: center;
+    }
+    .top-sidebar,
+    .extra-top-sidebar {
+        display: block;
+    }
+    .navbar-collapse.show .navbar-nav .nav-item {
+        padding-top: 1em;
+        align-items: center;
+    }
+    .navbar-toggler {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .body-stackbiltz-logo1 {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    /*######################### Top Heading Media Queries #########################*/
+    .top-heading-padding {
+        margin-left: 0rem !important;
+        margin-top: 5px !important;
+    }
+    .top-heading {
+        font-size: 38px;
+        margin-top: 2px !important;
+        line-height: 1em !important;
+    }
+    .heading-p-up {
+        margin-left: 0px !important;
+        margin-top: 2rem !important;
+    }
+    .form {
+        display: none;
+    }
+    .form-input {
+        display: none;
+        text-indent: 30px;
+    }
+    /* .i-search {
+        margin-top: -15px;
+    } */
+    .i2-input {
+        display: block;
+        /* width: 100px; */
+    }
+    .my-github-res,
+    .github-res2 {
+        display: flex;
+        /* justify-content: end; */
+        /* position: absolute; */
+    }
+    .my-github-res .github-res2 form i,
+    .my-github-res .github-res2 form input {
+        align-items: center !important;
+    }
+    .my-res-input {
+        display: block;
+        /* float: left; */
+        width: 100px;
+    }
+    .github-div {
+        width: 90px;
+        padding-right: 8px !important;
+        padding-left: 8px !important;
+    }
+    .form {
+        width: 100px;
+        /* padding-left: 0em; */
+        justify-content: end;
+        float: right;
+    }
+    .form input::placeholder {
+        /* padding-left: 0px !important; */
+        padding-right: 0px !important;
+        width: 100px;
+    }
+    .case-input::placeholder {
+        font-size: 11px;
+        letter-spacing: 0.09em;
+    }
+    .case-input::selection {
+        padding-left: 20px !important;
+    }
+    .form .fa-search {
+        position: absolute;
+        /* top: 10px; */
+        /* left: 15px; */
+        color: #aeddff99;
+        font-size: 13px;
+    }
+    .form-control {
+        padding-left: 10px !important;
+    }
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+        width: 70%;
+        transition: left 0.35s ease;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        background-color: #0d1d3a;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+    }
+    /*################################# TOp heading + navbar ends here ###############################*/
+    /*################################# heading body starts here ###############################*/
+    .body-wrapper,
+    .body-wrapper .container {
+        margin-top: 0px !important;
+    }
+    .beta-375 {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+    .beta-main-row {
+        margin-left: 0px !important;
+    }
+    .beta-flex-col {
+        gap: 10px 5px;
+    }
+    .beta-div {
+        width: 200px;
+    }
+    /*################################# heading body ends here ###############################*/
+    .beta-flex-col {
+        display: inline-flex !important;
+        flex-direction: row !important;
+    }
+    .beta-div {
+        width: 100% !important;
+    }
+    /* #########################  Founder Section Starts Here #########################*/
+    .founder-div {
+        display: inline-grid !important;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .quote-svg {
+        width: 60px;
+        transform: translateY(-38px) translateX(1px);
+        /* width: 50px ; */
+    }
+    .founder-t {
+        margin-top: -5rem !important;
+    }
+    .founder-name-p {
+        width: 50% !important;
+        float: right !important;
+        line-height: 1.3em;
+    }
+    .founder-pic {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: -8rem !important;
+    }
+    .founder-img {
+        width: 130px;
+        height: 150px;
+        box-shadow: 0 0 0 2px #22f3bf, 10px 10px 0 0 #22f3bf;
+        margin-top: -4rem;
+    }
+    .github-svg {
+        font-size: 35px;
+        color: #fff;
+        fill: currentColor;
+        box-shadow: 0 0 0 10px #0d1d3a;
+        background-color: #0d1d3a;
+        border-radius: 50px;
+        margin-left: -2rem;
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+    }
+    /* #########################  Founder Section Ends Here #########################*/
+    /* #########################  Editing Experience Section Starts Here #########################*/
+    .editing-464 {
+        margin-top: 1px !important;
+        margin-left: 0px !important;
+    }
+    .editing-head {
+        font-size: 40px;
+        line-height: 1em;
+        padding-left: 0px !important;
+    }
+    .my-grid {
+        display: block;
+        /* gap: 50px; */
+    }
+    .experience-div {
+        margin-bottom: 2rem;
+    }
+    .exp-btn {
+        padding: 1em 7em !important;
+    }
+    .learn-more-464 {
+        margin-top: 2px !important;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    /* ##########################  Editing Experience Section Ends Here ##########################*/
+    /* ##########################  Proudly used by the world best section starts here ##########################*/
+    .editing-head2 {
+        font-size: 40px;
+        line-height: 1.2em;
+    }
+    .case-main {
+        margin-right: 0.7rem;
+        margin-left: 0.7rem !important;
+    }
+    .inner-left-p,
+    .inner-left-svg {
+        margin-top: 2rem;
+    }
+    .case-div {
+        gap: 0px !important;
+    }
+    .case-text {
+        font-size: 28px !important;
+        line-height: 1.22em !important;
+        padding-right: 2em;
+    }
+    .my-form {
+        display: block !important;
+        width: 100% !important;
+    }
+    .case-input {
+        padding-left: auto !important;
+        padding-right: auto !important;
+        width: 100% !important;
+    }
+    .form-control {
+        padding-left: 2em !important;
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;
+        border: 2px solid rgba(175, 175, 175, 0.692);
+    }
+    .case-form-btn {
+        width: 100%;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        display: block !important;
+    }
+    /* ##################  Proudly used by the world best section Ends here ##################*/
+    /* ##################  Footer section Ends here ##################*/
+    .footer-main-flex-inner {
+        display: block !important;
+    }
+    .inner-footer-flex {
+        display: grid;
+        --list-columns: 2;
+        grid-template-columns: repeat(var(--list-columns), 1fr);
+    }
+    .footer-module {
+        margin-bottom: 2rem !important;
+    }
+    .list-unstyled {
+        margin-top: 0px !important;
+    }
+    .editing-head2 strong {
+        line-height: 50px;
+    }
+    /* #######################  Footer section Ends here #######################*/
+}
+
+
+/*################################# Mobile Screen Media QUeries 464px Ended Here ###############################*/
